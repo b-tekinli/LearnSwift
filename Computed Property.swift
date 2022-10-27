@@ -8,7 +8,7 @@ class Maas {
         }
 
         set (yeniHaftalikMaas) {
-            self.maas = yeniHaftalikMaas * 52
+            self.maas = yeniHaftalikMaas * 52           // self 2. satırdaki maas degişkenini ifade eder
         }
     }
 }
