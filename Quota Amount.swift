@@ -4,6 +4,10 @@ func quotaAmount(quota:Int) -> Int {
     if quota > 0 && quota <= 50 {
         price = 100
     }
+    else if (quota < 0) {
+        price = 0
+        print("Invalid value!")
+    }
     else {
         price = 100
         let sumQuota = quota - 50
@@ -14,4 +18,4 @@ func quotaAmount(quota:Int) -> Int {
     return price
 }
 
-print("Result: \(quotaAmount(quota: 61))")
+print("Result: \(quotaAmount(quota: -1))")
