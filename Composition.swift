@@ -1,19 +1,3 @@
-class Films {
-    var filmId:Int?
-    var filmName:String?
-    var filmYear:String?
-    var categoryId:Categories?
-    var directorId:Directors?
-
-    init(filmId:Int, filmName:String, filmYear:String, categoryId:Categories, directorId:Directors) {
-        self.filmId = filmId
-        self.filmName = filmName
-        self.filmYear = filmYear
-        self.categoryId = categoryId
-        self.directorId = directorId
-    }
-}
-
 class Categories {
     var categoryId:Int?
     var categoryName:String?
@@ -34,12 +18,36 @@ class Directors {
     }
 }
 
-let category = Categories(categoryId: 1, categoryName: "Dram")
-let director = Directors(directorId: 2, directorName: "Quetin Tarantino")
-let film = Films(filmId: 1, filmName: "Django", filmYear: "2013", categoryId: category, directorId: director)
+class Films {
+    var filmId:Int?
+    var filmName:String?
+    var filmYear:String?
+    var category:Categories?
+    var director:Directors?
 
-print("Film ID: \(film.filmId!)")
-print("Film Name: \(film.filmName!)")
-print("Film Year: \(film.filmYear!)")
-print("Film Category ID: \(category.categoryId!)")
-print("Film Director ID: \(director.directorId!)")
+    init(filmId:Int, filmName:String, filmYear:String, category:Categories, director:Directors) {
+        self.filmId = filmId
+        self.filmName = filmName
+        self.filmYear = filmYear
+        self.category = category
+        self.director = director
+    }
+}
+
+
+let category1 = Categories(categoryId: 1, categoryName: "Drama")
+let category2 = Categories(categoryId: 2, categoryName: "Comedy")
+let category3 = Categories(categoryId: 3, categoryName: "Science Fiction")
+
+let director1 = Directors(directorId: 1, directorName: "Nuri Bilge Ceylan")
+let director2 = Directors(directorId: 2, directorName: "Quetin Tarantino")
+
+let film1 = Films(filmId: 1, filmName: "Django", filmYear: "2013", category: category1, director: director1)
+let film2 = Films(filmId: 2, filmName: "Inception", filmYear: "2006", category: category2, director: director2)
+
+
+print("Film ID: \(film1.filmId!)")
+print("Film Name: \(film1.filmName!)")
+print("Film Year: \(film1.filmYear!)")
+print("Film Category Name: \(film1.category!.categoryName!)")
+print("Film Director Name: \(film1.director!.directorName!)")
