@@ -15,7 +15,7 @@ class Palace:Home {      // sub class
     }
 }
 
-class Villa:Home {
+class Villa:Home {      // sub class
     var isGarage:Bool?
 
     init(isGarage:Bool, windowNumber:Int) {
