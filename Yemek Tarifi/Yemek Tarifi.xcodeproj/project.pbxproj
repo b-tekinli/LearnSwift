@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E913AC4291BEF3C00E8E055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E913AC3291BEF3C00E8E055 /* AppDelegate.swift */; };
+		6E913AC6291BEF3C00E8E055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E913AC5291BEF3C00E8E055 /* SceneDelegate.swift */; };
+		6E913AC8291BEF3C00E8E055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E913AC7291BEF3C00E8E055 /* ViewController.swift */; };
+		6E913ACB291BEF3C00E8E055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E913AC9291BEF3C00E8E055 /* Main.storyboard */; };
+		6E913ACD291BEF3D00E8E055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E913ACC291BEF3D00E8E055 /* Assets.xcassets */; };
+		6E913AD0291BEF3D00E8E055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E913ACE291BEF3D00E8E055 /* LaunchScreen.storyboard */; };
+		6E913ADB291BEF3D00E8E055 /* Yemek_TarifiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E913ADA291BEF3D00E8E055 /* Yemek_TarifiTests.swift */; };
+		6E913AE6291BEF3D00E8E055 /* Yemek_TarifiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E913AE5291BEF3D00E8E055 /* Yemek_TarifiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E913AD7291BEF3D00E8E055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E913AB8291BEF3C00E8E055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E913ABF291BEF3C00E8E055;
+			remoteInfo = "Yemek Tarifi";
+		};
+		6E913AE2291BEF3D00E8E055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E913AB8291BEF3C00E8E055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E913ABF291BEF3C00E8E055;
+			remoteInfo = "Yemek Tarifi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E913AC0291BEF3C00E8E055 /* Yemek Tarifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yemek Tarifi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E913AC3291BEF3C00E8E055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E913AC5291BEF3C00E8E055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E913AC7291BEF3C00E8E055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E913ACA291BEF3C00E8E055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E913ACC291BEF3D00E8E055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E913ACF291BEF3D00E8E055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E913AD1291BEF3D00E8E055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E913AD6291BEF3D00E8E055 /* Yemek TarifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yemek TarifiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E913ADA291BEF3D00E8E055 /* Yemek_TarifiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemek_TarifiTests.swift; sourceTree = "<group>"; };
+		6E913ADC291BEF3D00E8E055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E913AE1291BEF3D00E8E055 /* Yemek TarifiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yemek TarifiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E913AE5291BEF3D00E8E055 /* Yemek_TarifiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemek_TarifiUITests.swift; sourceTree = "<group>"; };
+		6E913AE7291BEF3D00E8E055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E913ABD291BEF3C00E8E055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E913AD3291BEF3D00E8E055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E913ADE291BEF3D00E8E055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E913AB7291BEF3C00E8E055 = {
+			isa = PBXGroup;
+			children = (
+				6E913AC2291BEF3C00E8E055 /* Yemek Tarifi */,
+				6E913AD9291BEF3D00E8E055 /* Yemek TarifiTests */,
+				6E913AE4291BEF3D00E8E055 /* Yemek TarifiUITests */,
+				6E913AC1291BEF3C00E8E055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E913AC1291BEF3C00E8E055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E913AC0291BEF3C00E8E055 /* Yemek Tarifi.app */,
+				6E913AD6291BEF3D00E8E055 /* Yemek TarifiTests.xctest */,
+				6E913AE1291BEF3D00E8E055 /* Yemek TarifiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E913AC2291BEF3C00E8E055 /* Yemek Tarifi */ = {
+			isa = PBXGroup;
+			children = (
+				6E913AC3291BEF3C00E8E055 /* AppDelegate.swift */,
+				6E913AC5291BEF3C00E8E055 /* SceneDelegate.swift */,
+				6E913AC7291BEF3C00E8E055 /* ViewController.swift */,
+				6E913AC9291BEF3C00E8E055 /* Main.storyboard */,
+				6E913ACC291BEF3D00E8E055 /* Assets.xcassets */,
+				6E913ACE291BEF3D00E8E055 /* LaunchScreen.storyboard */,
+				6E913AD1291BEF3D00E8E055 /* Info.plist */,
+			);
+			path = "Yemek Tarifi";
+			sourceTree = "<group>";
+		};
+		6E913AD9291BEF3D00E8E055 /* Yemek TarifiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E913ADA291BEF3D00E8E055 /* Yemek_TarifiTests.swift */,
+				6E913ADC291BEF3D00E8E055 /* Info.plist */,
+			);
+			path = "Yemek TarifiTests";
+			sourceTree = "<group>";
+		};
+		6E913AE4291BEF3D00E8E055 /* Yemek TarifiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E913AE5291BEF3D00E8E055 /* Yemek_TarifiUITests.swift */,
+				6E913AE7291BEF3D00E8E055 /* Info.plist */,
+			);
+			path = "Yemek TarifiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E913ABF291BEF3C00E8E055 /* Yemek Tarifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E913AEA291BEF3D00E8E055 /* Build configuration list for PBXNativeTarget "Yemek Tarifi" */;
+			buildPhases = (
+				6E913ABC291BEF3C00E8E055 /* Sources */,
+				6E913ABD291BEF3C00E8E055 /* Frameworks */,
+				6E913ABE291BEF3C00E8E055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yemek Tarifi";
+			productName = "Yemek Tarifi";
+			productReference = 6E913AC0291BEF3C00E8E055 /* Yemek Tarifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E913AD5291BEF3D00E8E055 /* Yemek TarifiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E913AED291BEF3D00E8E055 /* Build configuration list for PBXNativeTarget "Yemek TarifiTests" */;
+			buildPhases = (
+				6E913AD2291BEF3D00E8E055 /* Sources */,
+				6E913AD3291BEF3D00E8E055 /* Frameworks */,
+				6E913AD4291BEF3D00E8E055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E913AD8291BEF3D00E8E055 /* PBXTargetDependency */,
+			);
+			name = "Yemek TarifiTests";
+			productName = "Yemek TarifiTests";
+			productReference = 6E913AD6291BEF3D00E8E055 /* Yemek TarifiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E913AE0291BEF3D00E8E055 /* Yemek TarifiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E913AF0291BEF3D00E8E055 /* Build configuration list for PBXNativeTarget "Yemek TarifiUITests" */;
+			buildPhases = (
+				6E913ADD291BEF3D00E8E055 /* Sources */,
+				6E913ADE291BEF3D00E8E055 /* Frameworks */,
+				6E913ADF291BEF3D00E8E055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E913AE3291BEF3D00E8E055 /* PBXTargetDependency */,
+			);
+			name = "Yemek TarifiUITests";
+			productName = "Yemek TarifiUITests";
+			productReference = 6E913AE1291BEF3D00E8E055 /* Yemek TarifiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E913AB8291BEF3C00E8E055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6E913ABF291BEF3C00E8E055 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6E913AD5291BEF3D00E8E055 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6E913ABF291BEF3C00E8E055;
+					};
+					6E913AE0291BEF3D00E8E055 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6E913ABF291BEF3C00E8E055;
+					};
+				};
+			};
+			buildConfigurationList = 6E913ABB291BEF3C00E8E055 /* Build configuration list for PBXProject "Yemek Tarifi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E913AB7291BEF3C00E8E055;
+			productRefGroup = 6E913AC1291BEF3C00E8E055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E913ABF291BEF3C00E8E055 /* Yemek Tarifi */,
+				6E913AD5291BEF3D00E8E055 /* Yemek TarifiTests */,
+				6E913AE0291BEF3D00E8E055 /* Yemek TarifiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E913ABE291BEF3C00E8E055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E913AD0291BEF3D00E8E055 /* LaunchScreen.storyboard in Resources */,
+				6E913ACD291BEF3D00E8E055 /* Assets.xcassets in Resources */,
+				6E913ACB291BEF3C00E8E055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E913AD4291BEF3D00E8E055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E913ADF291BEF3D00E8E055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E913ABC291BEF3C00E8E055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E913AC8291BEF3C00E8E055 /* ViewController.swift in Sources */,
+				6E913AC4291BEF3C00E8E055 /* AppDelegate.swift in Sources */,
+				6E913AC6291BEF3C00E8E055 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E913AD2291BEF3D00E8E055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E913ADB291BEF3D00E8E055 /* Yemek_TarifiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E913ADD291BEF3D00E8E055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E913AE6291BEF3D00E8E055 /* Yemek_TarifiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E913AD8291BEF3D00E8E055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E913ABF291BEF3C00E8E055 /* Yemek Tarifi */;
+			targetProxy = 6E913AD7291BEF3D00E8E055 /* PBXContainerItemProxy */;
+		};
+		6E913AE3291BEF3D00E8E055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E913ABF291BEF3C00E8E055 /* Yemek Tarifi */;
+			targetProxy = 6E913AE2291BEF3D00E8E055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E913AC9291BEF3C00E8E055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E913ACA291BEF3C00E8E055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E913ACE291BEF3D00E8E055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E913ACF291BEF3D00E8E055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E913AE8291BEF3D00E8E055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E913AE9291BEF3D00E8E055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E913AEB291BEF3D00E8E055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yemek Tarifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.Yemek-Tarifi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E913AEC291BEF3D00E8E055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yemek Tarifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.Yemek-Tarifi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E913AEE291BEF3D00E8E055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yemek TarifiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.Yemek-TarifiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yemek Tarifi.app/Yemek Tarifi";
+			};
+			name = Debug;
+		};
+		6E913AEF291BEF3D00E8E055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yemek TarifiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.Yemek-TarifiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yemek Tarifi.app/Yemek Tarifi";
+			};
+			name = Release;
+		};
+		6E913AF1291BEF3D00E8E055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yemek TarifiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.Yemek-TarifiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yemek Tarifi";
+			};
+			name = Debug;
+		};
+		6E913AF2291BEF3D00E8E055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yemek TarifiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.Yemek-TarifiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yemek Tarifi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E913ABB291BEF3C00E8E055 /* Build configuration list for PBXProject "Yemek Tarifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E913AE8291BEF3D00E8E055 /* Debug */,
+				6E913AE9291BEF3D00E8E055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E913AEA291BEF3D00E8E055 /* Build configuration list for PBXNativeTarget "Yemek Tarifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E913AEB291BEF3D00E8E055 /* Debug */,
+				6E913AEC291BEF3D00E8E055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E913AED291BEF3D00E8E055 /* Build configuration list for PBXNativeTarget "Yemek TarifiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E913AEE291BEF3D00E8E055 /* Debug */,
+				6E913AEF291BEF3D00E8E055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E913AF0291BEF3D00E8E055 /* Build configuration list for PBXNativeTarget "Yemek TarifiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E913AF1291BEF3D00E8E055 /* Debug */,
+				6E913AF2291BEF3D00E8E055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E913AB8291BEF3C00E8E055 /* Project object */;
+}
