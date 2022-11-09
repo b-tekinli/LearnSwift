@@ -1,15 +1,15 @@
 # LearnSwift
 
-Log In Page App
+## Log In Page App
 ![LogIn](https://github.com/b-tekinli/LearnSwift/blob/main/AppImage/LogInPage.png)
 
 
 <br />
 
-Recipe App
+## Recipe App
 ![Recipe](https://github.com/b-tekinli/LearnSwift/blob/main/AppImage/Recipe.png)
 
 <br />
 
-Inspire App
+## Inspire App
 ![Inspire](https://github.com/b-tekinli/LearnSwift/blob/main/AppImage/Inspire.png)
